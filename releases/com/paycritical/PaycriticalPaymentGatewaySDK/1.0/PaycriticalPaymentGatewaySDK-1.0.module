@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.paycritical",
+    "module": "PaycriticalPaymentGatewaySDK",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "vonumhbo2nb2jiwas2cqitdf3q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PaycriticalPaymentGatewaySDK-1.0.jar",
+          "url": "PaycriticalPaymentGatewaySDK-1.0.jar",
+          "size": 17070,
+          "sha512": "94ec88506dfa82f43862b2c772f76b5a0cacb95ae0472e1e005042a69baad302b50c89c03107b7933605b3fffc9ceff6dcb5de4b999a7fa40c39d990f57698a6",
+          "sha256": "2e8fca88278e305d4ea9cd74b96be433e509c4fc55bc966422e82f015ed4efaa",
+          "sha1": "4fa6599eff562fc04532b64c0b24d2ff21d9a561",
+          "md5": "94b3da0240cbaabda1ee6cbcfa3c5100"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PaycriticalPaymentGatewaySDK-1.0.jar",
+          "url": "PaycriticalPaymentGatewaySDK-1.0.jar",
+          "size": 17070,
+          "sha512": "94ec88506dfa82f43862b2c772f76b5a0cacb95ae0472e1e005042a69baad302b50c89c03107b7933605b3fffc9ceff6dcb5de4b999a7fa40c39d990f57698a6",
+          "sha256": "2e8fca88278e305d4ea9cd74b96be433e509c4fc55bc966422e82f015ed4efaa",
+          "sha1": "4fa6599eff562fc04532b64c0b24d2ff21d9a561",
+          "md5": "94b3da0240cbaabda1ee6cbcfa3c5100"
+        }
+      ]
+    }
+  ]
+}

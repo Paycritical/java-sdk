@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.paycritical</groupId>
+  <artifactId>PaycriticalPaymentGatewaySDK</artifactId>
+  <versioning>
+    <latest>1.0</latest>
+    <release>1.0</release>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20210531105826</lastUpdated>
+  </versioning>
+</metadata>
